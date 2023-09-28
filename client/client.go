@@ -20,6 +20,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	println(resp)
 	println(resp.Msg)
 
 }
